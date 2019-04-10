@@ -14,9 +14,7 @@ Bigrams help provide the conditional probability of a token given the preceding 
 applied
 
 # Formulae
-# p(Wn|Wn-1) = p(Wn-1, Wn) 
-#             ____________
-#               p(Wn-1)
+# p(Wn|Wn-1) = p(Wn-1, Wn) / p(Wn-1) 
 
 That is, the probability P() of a token  Wn given the preceding token Wn-1 is equal to the probability of their bigram, or the 
 co-occurrence of the two tokens  P(Wn-1,Wn) P(W_{{n-1}},W_{n}), divided by the probability of the preceding token.
